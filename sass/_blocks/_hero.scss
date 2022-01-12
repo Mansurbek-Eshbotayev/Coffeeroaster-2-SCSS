@@ -1,0 +1,35 @@
+// =========hero=========
+
+.hero{
+  margin-bottom: 168px;
+}
+
+.hero__inner{
+  background-image: url(../img/cofeeimg.svg);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 137px 0px 137px 85px;
+}
+
+.hero__left{
+  width: 445px;
+}
+
+.hero__title{
+  color: rgba(254, 252, 247, 1);
+  font-family: "Fraunces";
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+margin-bottom: 24px;
+}
+
+.hero__text{
+  color: rgba(254, 252, 247, 1);
+  font-family: "Barlow";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+}

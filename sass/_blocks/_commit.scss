@@ -1,0 +1,40 @@
+// <!-- =========Our commitment====== -->
+
+.commitment{
+  padding-bottom: 250px;
+}
+
+.commitment__inner{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.commitment__right{
+  width: 540px;
+}
+
+.commitment__title{
+  color: rgba(51, 61, 75, 1);
+  font-family: "Fraunces";
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+margin-bottom: 32px;
+}
+
+.commitment__text{
+  color: rgba(51, 61, 75, 1);
+  font-family: "Barlow";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+}
