@@ -1,17 +1,10 @@
-// =========hero=========
+ // =========plan hero=========
 
-.hero{
+.plan-hero{
   margin-bottom: 168px;
 }
 
-.hero__inner{
-  background-image: url(../img/frist.png);
-  background-repeat: no-repeat;
-  border-radius: 10px;
-  padding: 137px 0px 137px 85px;
-}
-
-.hero__inner--subscrible{
+.plan-hero__inner{
   background-image: url(../../img/forcofee.png);
   background-repeat: no-repeat;
   border-radius: 10px;
@@ -22,11 +15,11 @@
   width: 445px;
 }
 
-.hero__left--width{
+.plan__left{
   width: 485px;
 }
 
-.hero__title{
+.plan__title{
   color: rgba(254, 252, 247, 1);
   font-family: "Fraunces";
 font-style: normal;
@@ -36,7 +29,7 @@ line-height: 48px;
 margin-bottom: 24px;
 }
 
-.hero__title--subscrible{
+.plan__title{
 font-style: normal;
 font-weight: 900;
 font-size: 72px;
