@@ -7,8 +7,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header__logo{
@@ -44,14 +44,66 @@
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
-
+  
   &:hover{
     color: rgba(51, 61, 75, 1);
   }
-
+  
   &:active{
     color: rgba(51, 61, 75, 1);
+  }
+  
+}
+
+.header__hamburg-btn{
+  display: none;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+}
+
+
+@media only screen and (max-width:600px){
+
+  .header__nav{
+    display: none;
+  }
+
+  .header__hamburg-btn{
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
   }
 
 }
 
+@media only screen and (max-width:400px){
+
+  .header{
+    padding: 20px 0;
+  }
+}
+
+@media only screen and (max-width:370px){
+
+  .header{
+    padding: 20px 0;
+  }
+
+  .herader__img{
+    width: 170px;
+  }
+
+  .header__hamburg-btn{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width:320px){
+
+
+  .herader__img{
+    width: 160px;
+  }
+}

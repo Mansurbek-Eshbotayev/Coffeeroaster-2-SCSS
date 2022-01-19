@@ -6,6 +6,7 @@
 
 .hero__inner{
   background-image: url(../img/frist.png);
+  background-size: 1280px 450px;
   background-repeat: no-repeat;
   border-radius: 10px;
   padding: 137px 0px 137px 85px;
@@ -19,12 +20,14 @@
 }
 
 .hero__left{
-  width: 445px;
+  width: 100%;
+  max-width: 445px;
 }
 
-.hero__left--width{
-  width: 485px;
-}
+// .hero__left--width{
+//   width: 100%;
+//   max-width: 485px;
+// }
 
 .hero__title{
   color: rgba(254, 252, 247, 1);
@@ -51,3 +54,281 @@ font-weight: normal;
 font-size: 16px;
 line-height: 26px;
 }
+
+
+
+@media only screen and (max-width:690px){
+
+  .hero__inner{
+    background-image: url(../img/frist.png);
+    background-size: 1070px 430px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 137px 0px 137px 85px;
+  }
+
+  .hero__left {
+    // display: inline-block;
+    width: 100%;
+    // max-width: 445px;
+}
+
+}
+
+@media only screen and (max-width:600px){
+
+  .hero__inner{
+    background-image: url(../img/frist.png);
+    background-size: 820px 380px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 75px 0px 142px 55px;
+  }
+
+  .hero__left {
+    display: inline-block;
+    width: 100%;
+    max-width: 380px;
+    padding: 0 30px;
+}
+
+}
+
+@media only screen and (max-width:560px){
+
+  .hero__left {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    padding: 0 20px;
+}
+
+}
+
+@media only screen and (max-width:520px){
+
+  .hero__inner{
+    padding: 80px 20px 80px 75px;
+  }
+
+  .hero__left {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    
+}
+
+}
+
+@media only screen and (max-width:490px){
+
+  .hero__inner{
+    background-image: url(../img/frist.png);
+    background-size: 680px 300px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 43px 20px 80px 12px;
+  }
+
+ 
+
+  .hero__left {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;
+    
+}
+
+}
+
+@media only screen and (max-width:440px){
+
+  .hero__inner{
+    background-image: url(../img/frist.png);
+    background-size: 680px 300px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 51px 20px 80px 7px;
+  }
+
+
+
+  .hero__left {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;   
+}
+
+.hero__title{
+  font-size: 35px;
+}
+
+.hero__text{
+  font-size: 13px;
+}
+
+}
+
+@media only screen and (max-width:400px){
+
+  .hero__inner{
+    background-image: url(../img/frist.png);
+    background-size: 520px 290px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+
+  }
+
+  .hero__inner{
+    padding: 50px 20px 70px 0px;
+  }
+
+  .hero__left {
+    display: inline-block;
+    width: 100%;
+    max-width: 350px;  
+    padding: 0 50px; 
+}
+
+.hero__title{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.hero__text{
+  font-size: 13px;
+}
+
+}
+
+@media only screen and (max-width:370px){
+
+  .hero__inner{
+    background-image: url(../img/frist.png);
+    background-size: 520px 296px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 30px 20px 80px 7px;
+  }
+
+  .hero__left {
+    width: 100%;
+    max-width: 320px;
+    display: inline-block;
+    width: 100%;
+    max-width: 320px;  
+    padding: 0 77px 0 20px 
+}
+
+.hero__title{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.hero__text{
+  font-size: 13px;
+}
+
+}
+
+@media only screen and (max-width:340px){
+
+  .hero__inner{
+    background-image: url(../img/frist.png);
+    background-size: 465px 288px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 30px 20px 80px 7px;
+  }
+
+  .hero__left {
+    width: 100%;
+    max-width: 320px;
+    display: inline-block;
+    width: 100%;
+    max-width: 320px;  
+    padding: 0 77px 0 20px 
+}
+
+.hero__title{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.hero__text{
+  font-size: 13px;
+  line-height: 20px;
+
+}
+
+}
+
+@media only screen and (max-width:330px){
+
+  .hero__inner{
+    background-image: url(../img/frist.png);
+    background-size: 465px 288px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 30px 20px 80px 7px;
+  }
+
+  .hero__left {
+    width: 100%;
+    max-width: 320px;
+    display: inline-block;
+    width: 100%;
+    max-width: 320px;  
+    padding: 0 77px 0 20px 
+}
+
+.hero__title{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.hero__text{
+  font-size: 13px;
+  line-height: 20px;
+
+}
+
+}
+
+
+
+@media only screen and (max-width:320px){
+
+  .hero__inner{
+    background-image: url(../img/frist.png);
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+   
+  }
+
+  .hero__inner{
+    padding: 30px 20px 70px 0px;
+  }
+
+  .hero__left {
+    width: 100%;
+    max-width: 320px;
+    display: inline-block;
+    width: 100%;
+    max-width: 320px;  
+    padding: 0 60px 0 10px; 
+}
+
+.hero__title{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.hero__text{
+  font-size: 13px;
+}
+
+}
+
+
