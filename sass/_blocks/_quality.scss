@@ -15,6 +15,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  width: 100%;
   height: 474px;
   background-image: url(../img/twost.png);
 }
@@ -55,4 +56,147 @@ opacity: 0.8;
 
 .quality__img{
   border-radius: 8px;
+}
+
+@media only screen and (max-width:1200px){
+  .quality__left{
+    width: 100%;
+    max-width: 450px;
+  }
+
+}
+
+@media only screen and (max-width:1120px){
+  .quality__left{
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .quality__right{
+    position: absolute;
+    bottom: 90px;
+    right: 45px;
+  }
+
+}
+
+@media only screen and (max-width:1080px){
+
+  .quality__inner{
+    position: relative;
+    margin-top: 100px;
+  }
+  
+  .quality__inner::before{
+    
+      content: "";
+      position: absolute;
+      z-index: 2;
+      width: 600px;
+      height: 400px;
+      background-image: url(../img/bur.jpg);
+      background-repeat: no-repeat;
+      background-size:contain ;
+      border-radius: 10px 10px 10px 10px;
+      top: -160px;
+    
+  }
+
+  .quality__left{
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .quality__right{
+    position: absolute;
+    bottom: 90px;
+    right: 45px;
+  }
+
+  .quality__img{
+    display: none;
+  }
+
+  .quality__left{
+    text-align: center;
+    max-width: 777px;
+    left: 130px;
+    top: 230px;
+  }
+
+}
+
+@media only screen and (max-width:1030px){
+  .quality__inner::before{
+    
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 520px;
+    height: 400px;
+    background-image: url(../img/bur.jpg);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    border-radius: 10px 10px 10px 10px;
+    top: -160px;
+    right: auto;
+    left: auto;
+}
+.quality__left{
+  text-align: center;
+  max-width: 700px;
+  left: 130px;
+  top: 230px;
+}
+
+}
+
+@media only screen and (max-width:1030px){
+  .quality__inner::before{
+    
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 520px;
+    height: 400px;
+    background-image: url(../img/bur.jpg);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    border-radius: 10px 10px 10px 10px;
+    top: -160px;
+    right: auto;
+    left: auto;
+}
+.quality__left{
+  text-align: center;
+  max-width: 560px;
+  left: 130px;
+  top: 230px;
+}
+
+}
+
+@media only screen and (max-width:835px){
+  .quality__inner::before{
+    
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 520px;
+    height: 400px;
+    background-image: url(../img/bur.jpg);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    border-radius: 10px 10px 10px 10px;
+    top: -160px;
+    right: auto;
+    left: auto;
+}
+.quality__left{
+  text-align: center;
+  max-width: 560px;
+  left: 130px;
+  top: 230px;
+}
+
 }

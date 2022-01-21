@@ -4,6 +4,10 @@
   padding-bottom: 250px;
 }
 
+.commitment__left{
+  margin-right: 30px;
+}
+
 .commitment__inner{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,7 +21,8 @@
 }
 
 .commitment__right{
-  width: 540px;
+  width: 100%;
+  max-width: 540px;
 }
 
 .commitment__title{
@@ -41,4 +46,276 @@ line-height: 26px;
 
 .commitment__img{
   border-radius: 7px;
+}
+
+
+
+@media only screen and (max-width:900px){
+ .commitment__img{
+   width: 400px;
+ }
+
+ .commitment__right{
+   width: 540px;
+ }
+
+ .commitment__text{
+   font-style: 16px;
+ }
+}
+
+@media only screen and (max-width:800px){
+  .commitment__img{
+    width: 370px;
+  }
+ 
+  .commitment__right{
+    width: 300px;
+  }
+ }
+
+ .commitment__title{
+  font-size: 30px;
+}
+
+.commitment__text{
+  font-size: 13px;
+}
+
+@media only screen and (max-width:720px){
+  .commitment__img{
+    width: 370px;
+  }
+ 
+  .commitment__right{
+    width: 265px;
+  }
+ }
+
+ .commitment__title{
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+.commitment__text{
+  font-size: 13px;
+}
+
+@media only screen and (max-width:700px){
+  .commitment__inner{
+    flex-direction: column;
+  }
+
+  .commitment__left{
+   margin-right: 0px;
+  }
+
+  .commitment__img{
+    width: 500px;
+    margin-bottom: 20px;
+  }
+ 
+  .commitment__right{
+    width: 450px;
+  }
+ }
+
+ .commitment__title{
+  font-size: 30px;
+  text-align: center;
+}
+
+.commitment__text{
+  font-size: 13px;
+  text-align: center;
+}
+
+@media only screen and (max-width:450px){
+  .commitment__inner{
+    flex-direction: column;
+  }
+
+  .commitment__left{
+   margin-right: 0px;
+  }
+
+  .commitment__img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+ 
+  .commitment__right{
+    width: 100%;
+    width: 350px;
+  }
+ }
+
+ .commitment__title{
+  font-size: 30px;
+  text-align: center;
+}
+
+.commitment__text{
+  font-size: 13px;
+  text-align: center;
+}
+
+@media only screen and (max-width:537px){
+  .commitment__inner{
+    flex-direction: column;
+  }
+
+  .commitment__left{
+   margin-right: 0px;
+  }
+
+  .commitment__img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+ 
+  .commitment__right{
+    width: 100%;
+    width: 400px;
+  }
+ }
+
+ .commitment__title{
+  font-size: 30px;
+  text-align: center;
+}
+
+.commitment__text{
+  font-size: 13px;
+  text-align: center;
+}
+
+@media only screen and (max-width:470px){
+  .commitment__inner{
+    flex-direction: column;
+  }
+
+  .commitment__left{
+   margin-right: 0px;
+  }
+
+  .commitment__img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+ 
+  .commitment__right{
+    width: 100%;
+    width: 400px;
+  }
+ }
+
+ .commitment__title{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.commitment__text{
+  font-size: 13px;
+  text-align: center;
+}
+
+@media only screen and (max-width:450px){
+  .commitment__inner{
+    flex-direction: column;
+  }
+
+  .commitment__left{
+   margin-right: 0px;
+  }
+
+  .commitment__img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+ 
+  .commitment__right{
+    width: 100%;
+    width: 320px;
+  }
+ }
+
+ .commitment__title{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.commitment__text{
+  font-size: 13px;
+  text-align: center;
+}
+
+@media only screen and (max-width:400px){
+  .commitment__inner{
+    flex-direction: column;
+  }
+
+  .commitment__left{
+   margin-right: 0px;
+  }
+
+  .commitment__img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+ 
+  .commitment__right{
+    width: 100%;
+    width: 320px;
+  }
+ }
+
+ .commitment__title{
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.commitment__text{
+  font-size: 13px;
+  text-align: center;
+}
+
+@media only screen and (max-width:370px){
+  .commitment__inner{
+    flex-direction: column;
+  }
+
+  .commitment__left{
+   margin-right: 0px;
+  }
+
+  .commitment__img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+ 
+  .commitment__right{
+    width: 100%;
+    width: 260px;
+  }
+ }
+
+ .commitment__title{
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.commitment__text{
+  font-size: 13px;
+  text-align: center;
+}
+
+@media only screen and (max-width:370px){
+  .commitment__title{
+    font-size: 23px;
+  }
 }
